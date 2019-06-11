@@ -1,0 +1,15 @@
+You have a number of boxes N with widths and heights given as a pair of integers (width, height). 
+One box can fit into another only if both the width and height of one box is greater than the width and height of the other box.
+What is the maximum number of boxes you put inside other? Whats the time complexity?
+-----------------------
+You want to place a new bank ATM machine on an empty area which reaches all near banks and ATM machines in the shortest amount of distance.
+You can only search up, down, left and right for an empty area. Given a 2D grid of values 0, 1 or 2, where:
+
+    Each 0 marks an empty area which you can use freely.
+    Each 1 marks a bank which you cannot pass through.
+    Each 2 marks an ATM which you cannot pass through.
+    
+For example, given three banks at (0,0), (1,4), (2,1), and an ATM at (0,3).
+The point (1,1) is an ideal empty area to place your ATM, as the total driving distance of 6 is minimal.
+So as a result to return is 6.
+As only input consider 2D array with 0, 1 or 2 marks only.
