@@ -13,14 +13,14 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-public class Solution {
+public class RestConsumer {
     /*
      * Complete the function below. Base url:
      * https://jsonmock.hackerrank.com/api/movies/search/?Title=
      */
     private static String BASE_URL = "https://jsonmock.hackerrank.com/api/movies/search/?Title=";
 
-    /*public static void main(String[] args) throws Exception {
+    public static void main(String[] args) throws Exception {
         String[] data = getMovieTitles("spiderman");
         for (String datum : data) {
             System.out.println(datum);
@@ -87,5 +87,5 @@ public class Solution {
         in.close();
 
         return response.toString();
-    }*/
+    }
 }

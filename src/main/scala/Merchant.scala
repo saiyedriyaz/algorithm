@@ -8,7 +8,7 @@ import java.util.function._
 import java.util.regex._
 import java.util.stream._
 
-object Solution_1 {
+object Merchant {
   def sockMerchant(n: Int, ar: Array[Int]): Int = {
     val groups = ar.groupBy(_.intValue())
     var pairs = 0
