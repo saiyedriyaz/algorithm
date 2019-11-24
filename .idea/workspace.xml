@@ -1,189 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bf048372-fe34-49d0-b42e-dc73f710581b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sbt.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/demo/algorithms/sorting/MergeSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/demo/draft/FileDownload.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/algorithms/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/demo/algorithms/sorting/BubbleSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/algorithms/MergeArraysPlain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/demo/algorithms/sorting/MergeArraysPlain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/algorithms/MergeArraysUsingStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/demo/algorithms/sorting/MergeArraysUsingStream.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/algorithms/MergeSort.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/company/PairedSongs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/demo/challanges/PairedSongs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/company/PinCodeGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/demo/challanges/PinCodeGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/company/PinCodeGeneratorSolutionB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/demo/challanges/PinCodeGeneratorSolutionB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/company/PinCodeGenerator_Problem" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/demo/challanges/PinCodeGenerator_Problem" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/company/PinCodeValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/demo/challanges/PinCodeValidator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/company/ValidationException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/demo/challanges/ValidationException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/oops/PaintTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/demo/oops/PaintTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/other/ByteArrayToString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/demo/draft/ByteArrayToString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/other/ComparatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/demo/draft/ComparatorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/other/DecimalConversion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/demo/draft/DecimalConversion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/other/DeliveryPath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/demo/draft/DeliveryPath.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/other/DirDelete.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/demo/draft/DirDelete.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/other/FileRename.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/demo/draft/FileRename.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/other/HasDecimalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/demo/draft/HasDecimalTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/other/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/demo/draft/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/other/Main2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/demo/draft/Main2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/other/MergeTwoArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/demo/draft/MergeTwoArrays.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/other/Problem" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/demo/draft/Problem" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/other/StockMarket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/demo/draft/StockMarket.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/other/StringTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/demo/draft/StringTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/other/TestMe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/demo/draft/TestMe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/other/TimeDifference.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/demo/draft/TimeDifference.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/streams/StreamExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/demo/streams/StreamExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/net/company/ServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/net/company/ServiceTest.java" afterDir="false" />
+    <list default="true" id="37e423d6-ec65-400a-9dab-5fe161a79c1b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/learning_algorithms$MergeSortTest.ic" NAME="MergeSortTest Coverage Results" MODIFIED="1560703476970" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>net.company.*</FILTER>
-    </SUITE>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
   </component>
-  <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/net/demo/challanges/PairedSongs.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/net/company/MergeSortTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="12" column="44" lean-forward="true" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/net/demo/algorithms/sorting/BubbleSort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/net/demo/algorithms/sorting/MergeArraysPlain.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/net/demo/algorithms/sorting/MergeSort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="33" column="26" lean-forward="true" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="26" />
-              <folding>
-                <element signature="e#1020#1021#0" expanded="true" />
-                <element signature="e#1064#1065#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/test/java/net/company/MergeSortTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/net/demo/algorithms/sorting/MergeSort.java" />
-      </list>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1616" />
-    <option name="height" value="876" />
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="learning-algorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learning-algorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learning-algorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learning-algorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learning-algorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="learning-algorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="sorting" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
-  </component>
+  <component name="ProjectId" id="1Svpf1CDhbyk4qhl3iIPLQQD6zW" />
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560704244095" />
+    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -197,56 +53,79 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SortingTests">
-    <configuration name="MergeSortTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.WallsAndGatesDFS">
+    <configuration name="LongestPelindrom" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="net.demo.challanges.LongestPelindrom" />
       <module name="learning-algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="net.company.*" />
+          <option name="PATTERN" value="net.demo.challanges.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="net.company" />
-      <option name="MAIN_CLASS_NAME" value="net.company.MergeSortTest" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeSortTest.positiveTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LongestSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="net.demo.challanges.LongestSubstring" />
       <module name="learning-algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="net.company.*" />
+          <option name="PATTERN" value="net.demo.challanges.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="net.company" />
-      <option name="MAIN_CLASS_NAME" value="net.company.MergeSortTest" />
-      <option name="METHOD_NAME" value="positiveTest" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortingTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MinMaxWindowRiddle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="net.demo.challanges.MinMaxWindowRiddle" />
       <module name="learning-algorithms" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="net.company.*" />
+          <option name="PATTERN" value="net.demo.challanges.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="net.company" />
-      <option name="MAIN_CLASS_NAME" value="net.company.SortingTests" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RepeatedString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="net.demo.challanges.RepeatedString" />
+      <module name="learning-algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="net.demo.challanges.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WallsAndGatesDFS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="net.demo.challanges.WallsAndGatesDFS" />
+      <module name="learning-algorithms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="net.demo.challanges.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SortingTests" />
-        <item itemvalue="JUnit.MergeSortTest.positiveTest" />
-        <item itemvalue="JUnit.MergeSortTest" />
+        <item itemvalue="Application.WallsAndGatesDFS" />
+        <item itemvalue="Application.MinMaxWindowRiddle" />
+        <item itemvalue="Application.RepeatedString" />
+        <item itemvalue="Application.LongestPelindrom" />
+        <item itemvalue="Application.LongestSubstring" />
       </list>
     </recent_temporary>
   </component>
@@ -255,125 +134,126 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="bf048372-fe34-49d0-b42e-dc73f710581b" name="Default Changelist" comment="" />
-      <created>1560703324394</created>
+      <changelist id="37e423d6-ec65-400a-9dab-5fe161a79c1b" name="Default Changelist" comment="" />
+      <created>1572454022840</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1560703324394</updated>
+      <updated>1572454022840</updated>
+      <workItem from="1572454025433" duration="2272000" />
+      <workItem from="1572972948074" duration="2482000" />
+      <workItem from="1573137393265" duration="7224000" />
+      <workItem from="1573359382471" duration="564000" />
+      <workItem from="1573401455319" duration="6816000" />
+      <workItem from="1573446006948" duration="1277000" />
+      <workItem from="1573577616141" duration="2192000" />
+      <workItem from="1573737582400" duration="2533000" />
+      <workItem from="1573966524492" duration="1187000" />
+      <workItem from="1574576893303" duration="939000" />
     </task>
+    <task id="LOCAL-00001" summary="practice">
+      <created>1574577120816</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1574577120816</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
-  <component name="TestHistory">
-    <history-entry file="MergeSortTest_positiveTest - 2019.06.16 at 20h 43m 23s.xml">
-      <configuration name="MergeSortTest.positiveTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MergeSortTest_positiveTest - 2019.06.16 at 20h 44m 22s.xml">
-      <configuration name="MergeSortTest.positiveTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MergeSortTest - 2019.06.16 at 20h 44m 38s.xml">
-      <configuration name="MergeSortTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MergeSortTest_positiveTest - 2019.06.16 at 20h 45m 08s.xml">
-      <configuration name="MergeSortTest.positiveTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MergeSortTest_positiveTest - 2019.06.16 at 20h 45m 30s.xml">
-      <configuration name="MergeSortTest.positiveTest" configurationId="JUnit" />
-    </history-entry>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
   </component>
-  <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info id="Designer" />
-      <window_info id="Image Layers" />
-      <window_info id="DB Browser" />
-      <window_info id="UI Designer" />
-      <window_info id="Project Explorer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Capture Tool" />
-      <window_info id="Job Explorer" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="DB Execution Console" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="SBT Execute" side_tool="true" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Messages" />
-      <window_info anchor="bottom" id="Console" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32974428" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32974428" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Coverage" side_tool="true" weight="0.32969153" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/demo/challanges/PairedSongs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/net/company/MergeSortTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="12" column="44" lean-forward="true" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/demo/algorithms/sorting/BubbleSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/demo/algorithms/sorting/MergeArraysPlain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/net/demo/algorithms/sorting/MergeSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" column="26" lean-forward="true" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="26" />
-          <folding>
-            <element signature="e#1020#1021#0" expanded="true" />
-            <element signature="e#1064#1065#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="practice" />
+    <option name="LAST_COMMIT_MESSAGE" value="practice" />
   </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/net/demo/challanges/Anagram.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/net/demo/challanges/ValidParantheses.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/net/demo/challanges/LongestPelindrom.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/net/demo/challanges/LongestPelindrom.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/net/demo/challanges/LongestPelindrom.java</url>
+          <line>53</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/net/demo/challanges/LongestPelindrom.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/net/demo/challanges/LongestPelindrom.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/net/demo/challanges/LongestPelindrom.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/net/demo/challanges/RepeatedString.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/net/demo/challanges/RepeatedString.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/net/demo/challanges/MinMaxWindowRiddle.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/net/demo/challanges/MinMaxWindowRiddle.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/net/demo/challanges/MinMaxWindowRiddle.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/net/demo/challanges/WallsAndGatesDFS.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
