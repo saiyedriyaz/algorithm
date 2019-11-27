@@ -7,7 +7,6 @@ import java.io.File;
  */
 
 /**
- * @author S425401
  *
  */
 public class DirDelete {

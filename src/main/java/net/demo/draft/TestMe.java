@@ -7,7 +7,6 @@ import java.util.Arrays;
  */
 
 /**
- * @author S425401
  *
  */
 public class TestMe {

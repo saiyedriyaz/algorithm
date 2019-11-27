@@ -9,7 +9,6 @@ import java.util.List;
  */
 
 /**
- * @author S425401
  *
  */
 public class StringTest {

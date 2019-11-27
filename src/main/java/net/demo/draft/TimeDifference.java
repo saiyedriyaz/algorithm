@@ -10,7 +10,6 @@ import java.util.Date;
  */
 
 /**
- * @author S425401
  *
  */
 public class TimeDifference {

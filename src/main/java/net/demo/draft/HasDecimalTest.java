@@ -5,7 +5,6 @@ package net.demo.draft;
  */
 
 /**
- * @author S425401
  *
  */
 public class HasDecimalTest {
