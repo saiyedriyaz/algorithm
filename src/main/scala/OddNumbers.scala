@@ -2,6 +2,10 @@ import scala.collection.mutable._
 
 object Solution {
 
+  def main(args: Array[String]) {
+    //println(findNumber(Array(1, 2, 3, 4), 3))
+    oddNumbers(3, 90).foreach(println)
+  }
 
   // Complete the findNumber function below.
   def findNumber(arr: Array[Int], k: Int): String = {
@@ -18,8 +22,4 @@ object Solution {
     results.toArray
   }
 
-  def main(args: Array[String]) {
-    //println(findNumber(Array(1, 2, 3, 4), 3))
-    oddNumbers(3, 9).foreach(println)
-  }
 }

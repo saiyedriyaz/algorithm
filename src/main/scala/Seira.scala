@@ -1,7 +1,7 @@
 object Seira {
 
   def main(args: Array[String]): Unit = {
-    println(shortestPalindrome("bba"))
+    println(shortestPalindrome("aacecaaa"))
   }
 
   def shortestPalindrome(s: String): Int = {
