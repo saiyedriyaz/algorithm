@@ -7,9 +7,11 @@ import lombok.ToString;
 @ToString
 public class Node<T extends Comparable<?>> {
     T data;
-   // Node above;
-    Node left;
-    Node right;
+    // Node above;
+    Node<T> left;
+    Node<T> right;
+
+    Integer level;
 
     Node(T data) {
         this.data = data;

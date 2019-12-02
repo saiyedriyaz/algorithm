@@ -40,7 +40,7 @@ object WordBreakSolution {
       searchString = "what"
     }
     val found = wordBreak(wordBreakSolution, searchString)
-    System.out.println("found all=" + found)
+    println("found all=" + found)
   }
 
   /**

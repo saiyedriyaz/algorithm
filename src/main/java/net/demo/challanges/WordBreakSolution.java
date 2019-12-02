@@ -36,6 +36,7 @@ public class WordBreakSolution {
      */
     public static void main(String[] args) {
         String searchString = null;
+        boolean found = false;
         if (args != null && args.length == 2) {
             wordList = new HashSet<>(Arrays.asList(args[0].split(",")));
             searchString = args[1];
@@ -43,14 +44,16 @@ public class WordBreakSolution {
         // run with sample/default test case
         else {
             wordList = new HashSet<>(Arrays.asList("what,an,nice,day".split(",")));
-            searchString = "what";
+            searchString = "dawhaty";
+            found = wordBreak2(searchString);
+            System.out.println("found all=" + found);
+
+            wordList = new HashSet<>(Arrays.asList("a,ab,bc".split(",")));
+            searchString = "abc";
+            found = wordBreak2(searchString);
+            System.out.println("found all=" + found);
         }
 
-        boolean found = wordBreak(searchString);
-        System.out.println("found all=" + found);
-
-        EmployeeLog employeeLog = new EmployeeLog();
-        employeeLog.age = 7;
     }
 
     /**
@@ -64,7 +67,7 @@ public class WordBreakSolution {
             return true;
         }
         for (int i = 1; i <= word.length(); i++) {
-            if (wordList.contains(word.substring(0, i)) && wordBreak(word.substring(i, word.length()))) {
+            if (wordList.contains(word.substring(0, i)) && wordBreak(word.substring(i))) {
                 return true;
             }
         }
@@ -72,12 +75,31 @@ public class WordBreakSolution {
         return false;
     }
 
-    static class EmployeeLog {
-        Integer age = 5;
-
-        @Override
-        public String toString() {
-            return super.toString();
+    private static boolean wordBreak2(String word) {
+        if (word.length() == 0) {
+            return true;
         }
+        int foundCount = 0;
+        for (int i = 0; i < word.length(); i++) {
+            for (int j = i; j <= word.length(); j++) {
+                String newWord = word.substring(i, j);
+                if (wordList.contains(newWord)) {
+                    foundCount++;
+                }
+            }
+        }
+        return wordList.size() == foundCount;
     }
+
+    /*private static String doSomething(String word) {
+        for (int i = 0; i < word.length(); i++) {
+            for (int j = i; j <= word.length(); j++) {
+                String newWord = word.substring(i, j);
+                if (wordList.contains(newWord)) {
+                    return word.replace(newWord, "");
+                }
+            }
+        }
+        return word;
+    }*/
 }
