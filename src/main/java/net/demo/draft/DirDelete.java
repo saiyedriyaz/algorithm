@@ -1,6 +1,8 @@
 package net.demo.draft;
 
 import java.io.File;
+import java.util.HashSet;
+import java.util.Set;
 
 /**
  *
@@ -13,7 +15,9 @@ public class DirDelete {
 
     public static void main(String[] s) {
         System.err.println("test");
-        printFnames("D:\\GIT_MIG_ROLLBACK");
+        Set<String> hs = new HashSet<>();
+        hs.add("sss");
+        printFnames("C:\\Users\\se41hk\\OneDrive - ING\\Interviews\\Sushant\\meetup\\frontend\\frontend\\node_modules");
     }
 
     public static void printFnames(String sDir) {
