@@ -17,11 +17,7 @@ public class EmployeeData {
 
         @Override
         public String toString() {
-            return "Salary{" +
-                    "baseSalary=" + baseSalary +
-                    ", bonus=" + bonus +
-                    ", currency='" + currency + '\'' +
-                    '}';
+            return "Salary{baseSalary=" + baseSalary+", bonus=" + bonus +", currency='" + currency + '\'' +'}';
         }
     }
 
@@ -38,11 +34,7 @@ public class EmployeeData {
 
         @Override
         public String toString() {
-            return "Employee{" +
-                    "name='" + name + '\'' +
-                    ", department='" + department + '\'' +
-                    ", salary=" + salary +
-                    '}';
+            return "Employee{name='" + name + '\'' +", department='" + department + '\'' +", salary=" + salary +'}';
         }
     }
 
@@ -52,10 +44,16 @@ public class EmployeeData {
                 employeeData.getTestData("Riyaz", "WBAA", 300d, 250d, "PLN")
                 , employeeData.getTestData("Suvadeep", "ALGO", 150d, 75d, "EUR")
                 , employeeData.getTestData("Birol", "WBAA", 200d, 100d, "EUR")
+                , employeeData.getTestData("Birol", "AWBAA", 200d, 100d, "EUR")
                 , employeeData.getTestData("Ramesh", "ALGO", 250d, 100d, "EUR")
                 , employeeData.getTestData("Utsav", "WBAA", 250d, 100d, "EUR")
         );
 
+        System.out.println("before sort:"+data);
+        Collections.sort(data, Comparator.comparingDouble(o -> o.salary.baseSalary));
+        System.out.println("after sort:"+data);
+        //data.sort(Comparator.comparing(Employee::getName).thenComparing(Employee::getDepartment));
+        System.out.println("later sort:"+data);
         // group by department. department -> sub of Base Salary
         //Map<String, List<Employee>> groupByDept =  data.stream().collect(Collect)
 

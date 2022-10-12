@@ -1,4 +1,4 @@
-package net.demo.streams;
+package net.demo.interview;
 
 // package whatever; // don't place package name!
 // Installed Libraries: JSON-Simple, JUNit 4, Apache Commons Lang3
