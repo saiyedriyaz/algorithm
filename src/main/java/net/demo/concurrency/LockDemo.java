@@ -3,9 +3,8 @@ package net.demo.concurrency;
 import java.util.List;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
-import java.util.concurrent.locks.ReentrantLock;
 
-public class Demo1 {
+public class LockDemo {
     final static List<String> names = List.of("one", "two", "three");
 
     //static ReentrantLock reentrantLock = new ReentrantLock();
