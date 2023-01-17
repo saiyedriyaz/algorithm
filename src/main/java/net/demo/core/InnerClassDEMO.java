@@ -1,4 +1,4 @@
-package net.demo.io;
+package net.demo.core;
 
 import net.demo.oops.InnerClasses;
 

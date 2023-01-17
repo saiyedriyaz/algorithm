@@ -22,28 +22,27 @@ public class StockMarket {
         System.err.println("profit2=" + profit2);
     }
 
-    public int maxProfit(int[] prices) {
-        if (prices.length < 1) {
+    public int maxProfit(int[] stockPrices) {
+        if (stockPrices.length < 1) {
             return 0;
         }
 
-        int maxDiff = 0;
-        int localMin = prices[0];
-        int localMax = localMin;
+        int maxBenefit = 0, minPrice = stockPrices[0];
+        int localMax = minPrice;
 
-        for (int price : prices) {
-            if (price > localMax) {
-                localMax = price;
-                int localDiff = localMax - localMin;
-                if (localDiff > maxDiff) {
-                    maxDiff = localDiff;
+        for (int currentPrice : stockPrices) {
+            if (currentPrice > localMax) {
+                localMax = currentPrice;
+                int localDiff = localMax - minPrice;
+                if (localDiff > maxBenefit) {
+                    maxBenefit = localDiff;
                 }
-            } else if (price < localMin) {
-                localMin = localMax = price;
+            } else if (currentPrice < minPrice) {
+                minPrice = localMax = currentPrice;
             }
         }
 
-        return maxDiff;
+        return maxBenefit;
     }
 
     // submitted solution

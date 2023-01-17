@@ -17,24 +17,28 @@ public class InnerClasses {
         }
     }
     private class PrivateInnerClass {
+        int privateIc = 1;
         public void logMessage() {
             System.out.println("inside PrivateInnerClass" + innerClassVariable);
         }
     }
 
     public class PublicInnerClass {
+        int publicIc = 2;
         public void logMessage() {
             System.out.println("inside PublicInnerClass" + innerClassVariable);
         }
     }
 
     class DefaultInnerClass {
+        int defaultIc = 3;
         public void logMessage() {
-            System.out.println("inside DefaultInnerClass" + innerClassVariable);
+            System.out.println("inside DefaultInnerClass" + staticVariable);
         }
     }
 
     public static class StaticInnerClass {
+        int staticIc = 4;
         public void logMessage() {
             System.out.println("inside StaticInnerClass" + staticVariable);// can not access non-static variable
         }
