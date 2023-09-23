@@ -10,5 +10,12 @@ public class ImmutableDemo {
         numList.add(0,2);
         numList.add(0,3);
         System.out.println(numList);
+
+        var col = List.of(numList);
+        numList.add(4);
+
+        System.out.println(numList);
+        System.out.println(col);
+
     }
 }

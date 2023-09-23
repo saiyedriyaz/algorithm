@@ -7,6 +7,7 @@ public class ValidParantheses {
 
     public static void main(String[] args) {
         ValidParantheses a = new ValidParantheses();
+        System.err.println(a.isValid("]["));
         System.err.println(a.isValid("{}"));
         System.err.println(a.isValid("{}()[]"));
         System.err.println(a.isValid("{{[]}}"));
@@ -16,12 +17,12 @@ public class ValidParantheses {
 
 
     public boolean isValid(String s) {
-		Map<Character, Character> openingPairs = new HashMap();
+		Map<Character, Character> openingPairs = new HashMap<>();
 		openingPairs.put('{', '}');
 		openingPairs.put('[', ']');
 		openingPairs.put('(', ')');
 
-        java.util.Stack<Character> pStack = new java.util.Stack();
+        java.util.Stack<Character> pStack = new java.util.Stack<>();
         char[] sChars = s.toCharArray();
         for (char sChar : sChars) {
             if (pStack.isEmpty()) {

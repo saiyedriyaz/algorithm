@@ -1,9 +1,11 @@
 package net.demo.oops;
 
-public class InnerClasses {
+public class OuterClasse {
     private int innerClassVariable = 1;
 
     private static int staticVariable = 1;
+
+    public PrivateInnerClass privateInnerClass = new PrivateInnerClass();
 
     public void logMessage() {
         int logMessageVariable = 2; // this is effectively final because we are not modifying it.
@@ -17,50 +19,53 @@ public class InnerClasses {
         }
     }
     private class PrivateInnerClass {
-        int privateIc = 1;
+        private int privateIc = 999;
         public void logMessage() {
             System.out.println("inside PrivateInnerClass" + innerClassVariable);
         }
     }
 
     public class PublicInnerClass {
-        int publicIc = 2;
+        private int publicIc = 2;
         public void logMessage() {
             System.out.println("inside PublicInnerClass" + innerClassVariable);
         }
     }
 
     class DefaultInnerClass {
-        int defaultIc = 3;
+        private int defaultIc = 3;
         public void logMessage() {
             System.out.println("inside DefaultInnerClass" + staticVariable);
         }
     }
 
     public static class StaticInnerClass {
-        int staticIc = 4;
+        private int staticIc = 4;
         public void logMessage() {
             System.out.println("inside StaticInnerClass" + staticVariable);// can not access non-static variable
         }
     }
 
+    static OuterClasse outerClass = new OuterClasse();
+
     public static void main(String[] args) {
         StaticInnerClass staticInnerClass = new StaticInnerClass();
         staticInnerClass.logMessage();
 
-        InnerClasses innerClasses = new InnerClasses();
         // PublicInnerClass can be accessed/instantiated from within the InnerClasses or from any other class
-        InnerClasses.PublicInnerClass publicInnerClass = innerClasses.new PublicInnerClass();
+        OuterClasse.PublicInnerClass publicInnerClass = outerClass.new PublicInnerClass();
         //InnerClasses.PublicInnerClass publicInnerClass = new InnerClasses.PublicInnerClass(); // error
         //PublicInnerClass publicInnerClass = new PublicInnerClass(); // error
         publicInnerClass.logMessage();
 
         // PrivateInnerClass can be accessed/instantiated only from within the InnerClasses
-        InnerClasses.PrivateInnerClass privateInnerClass = innerClasses.new PrivateInnerClass();
+        OuterClasse.PrivateInnerClass privateInnerClass = outerClass.new PrivateInnerClass();
         privateInnerClass.logMessage();
 
         // DefaultInnerClass can be accessed/instantiated only from within the same package
-        InnerClasses.DefaultInnerClass defaultInnerClass = innerClasses.new DefaultInnerClass();
+        var defaultInnerClass = outerClass.new DefaultInnerClass();
         defaultInnerClass.logMessage();
+
+        System.out.println("direct access="+ outerClass.privateInnerClass.privateIc);
     }
 }

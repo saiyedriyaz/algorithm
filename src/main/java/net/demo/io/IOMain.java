@@ -3,6 +3,7 @@ package net.demo.io;
 import java.io.File;
 import java.nio.file.Files;
 import java.nio.file.Path;
+import java.nio.file.Paths;
 import java.util.Scanner;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
@@ -14,11 +15,15 @@ public class IOMain {
         java.util.Set<String> workdSet = scanner.useDelimiter(";").tokens().collect(Collectors.toSet());
         System.out.println(workdSet);*/
 
-        var lineStream = Files.lines(Path.of("/Users/mahammedriyazsaiyed/IdeaProjects/algorithm/src/main/java/net/demo/io/InnerClassDEMO.java"));
+        /*var lineStream = Files.lines(Path.of("/Users/mahammedriyazsaiyed/IdeaProjects/algorithm/src/main/java/net/demo/io/InnerClassDEMO.java"));
         lineStream.forEach(line -> System.out.println(line));
         System.out.println("----");
         var lineList = Files.readAllLines(Path.of("/Users/mahammedriyazsaiyed/IdeaProjects/algorithm/src/main/java/net/demo/io/InnerClassDEMO.java"));
-        lineList.forEach(line -> System.out.println(line));
+        lineList.forEach(line -> System.out.println(line));*/
 
+        Path d1 = Paths.get("/works");
+        Path d2 = d1.resolve("ocpjp/code"); //1
+        System.out.println(d1);
+        System.out.println(d2);
     }
 }

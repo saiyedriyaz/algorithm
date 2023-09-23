@@ -1,15 +1,15 @@
 package net.demo.core;
 
-import net.demo.oops.InnerClasses;
+import net.demo.oops.OuterClasse;
 
 public class InnerClassDEMO {
     public static void main(String[] args) {
-        InnerClasses.StaticInnerClass staticInnerClass = new InnerClasses.StaticInnerClass();
+        OuterClasse.StaticInnerClass staticInnerClass = new OuterClasse.StaticInnerClass();
         staticInnerClass.logMessage();
 
-        InnerClasses innerClasses = new InnerClasses();
+        OuterClasse innerClasses = new OuterClasse();
         // PublicInnerClass can be accessed/instantiated from within the InnerClasses or from any other class
-        InnerClasses.PublicInnerClass publicInnerClass = innerClasses.new PublicInnerClass();
+        OuterClasse.PublicInnerClass publicInnerClass = innerClasses.new PublicInnerClass();
         //InnerClasses.PublicInnerClass publicInnerClass = new InnerClasses.PublicInnerClass(); // error
         //PublicInnerClass publicInnerClass = new PublicInnerClass(); // error
         publicInnerClass.logMessage();
